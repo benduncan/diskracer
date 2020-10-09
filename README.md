@@ -200,8 +200,8 @@ Once benchmarking is complete reference the CSV files in the `reports/*` directo
 
 ### m5ad.large (ap-southeast-2)
 
-* [dd benchmark](reports/m5ad.large.ap-southeast-2-dd.csv)
-* [sqlite benchmark](reports/m5ad.large.ap-southeast-2-taxi-sqlite.csv)
+* [dd benchmark](./reports/m5ad.large.ap-southeast-2-dd.csv)
+* [sqlite benchmark](./reports/m5ad.large.ap-southeast-2-taxi-sqlite.csv)
 
 ## Step 9
 
@@ -216,11 +216,11 @@ TBC
 # Todo
 
 - [x] First beta using dd / taxi dataset
-- [] Adding Wikipedia dump (16GB compressed) benchmark
-- [] Add Jupyter notebook to analyze benchmark results
-- [] Test different instance types:
+- [ ] Adding Wikipedia dump (16GB compressed) benchmark
+- [ ] Add Jupyter notebook to analyze benchmark results
+- [ ] Test different instance types:
     - [x] m5ad.large
-    - [] a1.xlarge
-    - [] m6gd.large
-    - [] m5dn.large
-    - [] m4.large
+    - [ ] a1.xlarge
+    - [ ] m6gd.large
+    - [ ] m5dn.large
+    - [ ] m4.large
