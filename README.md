@@ -213,6 +213,22 @@ The two EFS volumes created can be removed via the AWS console on completion of 
 
 The directory `analysis/` contains jupyter notebooks that can be used to visualise the output data. Plots are saved as `.html` files in the `datavis/` directory.
 
+### Cost/speed ratio for read-nocache operations
+
+![exp1_price_data_read-nocache](assets/exp1_price_data_read-nocache.png)
+
+### Cost/speed ratio for write operations
+
+![exp1_price_data_write.png](assets/exp1_price_data_write.png)
+
+### Cost * operation time normalised
+
+![exp2_cost_div_speed_norm_ops](assets/exp2_cost_div_speed_norm_ops.png)
+
+### Time normalised for each operation
+
+![exp2_storage_speed_normalised.png](assets/exp2_storage_speed_normalised.png)
+
 # Todo
 
 - [x] First beta using dd / taxi dataset
