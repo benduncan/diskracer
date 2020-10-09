@@ -211,13 +211,13 @@ The two EFS volumes created can be removed via the AWS console on completion of 
 
 # Analyzing the benchmark results
 
-TBC
+The directory `analysis/` contains jupyter notebooks that can be used to visualise the output data. Plots are saved as `.html` files in the `datavis/` directory.
 
 # Todo
 
 - [x] First beta using dd / taxi dataset
 - [ ] Adding Wikipedia dump (16GB compressed) benchmark
-- [ ] Add Jupyter notebook to analyze benchmark results
+- [x] Add Jupyter notebook to analyze benchmark results
 - [ ] Test different instance types:
     - [x] m5ad.large
     - [ ] a1.xlarge
