@@ -51,3 +51,11 @@ vol,type,time
 /mnt/efs-maxio-burst, select_passenger_count_group, 22.5627648830414
 /mnt/efs-maxio-burst, select_count_pu_location_id, 9.8550009727478
 /mnt/efs-maxio-burst, select_tip_amount_top25, 10.1512429714203
+/mnt/efs-maxio-burst, update_trips_vendor_id, 441.099663972855
+/mnt/efs-maxio-burst, delete_trips_vendor_id_3, 2650.30515098572
+/mnt/ramdisk, insert, 45.3498680591583
+/mnt/ramdisk, select_passenger_count_group, 22.1672959327698
+/mnt/ramdisk, select_count_pu_location_id, 2.66353702545166
+/mnt/ramdisk, select_tip_amount_top25, 3.00535488128662
+/mnt/ramdisk, update_trips_vendor_id, 11.0151178836823
+/mnt/ramdisk, delete_trips_vendor_id_3, 3.30177688598633
