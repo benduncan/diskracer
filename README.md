@@ -234,6 +234,9 @@ The directory `analysis/` contains jupyter notebooks that can be used to visuali
 - [x] First beta using dd / taxi dataset
 - [ ] Adding Wikipedia dump (16GB compressed) benchmark
 - [x] Add Jupyter notebook to analyze benchmark results
+- [ ] Add Amazon FSx for Lustre FS test
+- [ ] Add FUSE mount for S3 test
+- [ ] Test Nitro based AMD instances vs Intel
 - [ ] Test different instance types:
     - [x] m5ad.large
     - [ ] a1.xlarge
