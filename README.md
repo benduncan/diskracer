@@ -1,22 +1,21 @@
 # Diskracer - AWS benchmarking utility (beta)
 
 ```
-
     .___.__        __
   __| _/|__| _____|  | ______________    ____  ___________
  / __ | |  |/  ___/  |/ /\_  __ \__  \ _/ ___\/ __ \_  __ \
 / /_/ | |  |\___ \|    <  |  | \// __ \\  \__\  ___/|  | \/
 \____ | |__/____  >__|_ \ |__|  (____  /\___  >___  >__|
 	 \/         \/     \/            \/     \/    \/
-
+----------------------------------------------------- . . .
 @bennydee & @ikiko
 ```
 
-Diskracer benchmarks various storage options (EBS, EFS) within AWS and provide benchmarking and price/performance ratios for your workloads.
+Diskracer benchmarks various AWS storage options (EBS, EFS) and provides price to performance comparisons for specific IO workload patterns.
 
 # Usage
 
->**NOTE: Do not use this on a production system, only use a temporary instance since each volume will be destroyed and reformatted during the benchmarking process.**
+>**NOTE 🚨: Do not use this on a production system, only use a temporary instance since each volume will be destroyed and reformatted during the benchmarking process.**
 
 Diskracer will benchmark the following tests for each EBS/EFS volume using the default settings and provided IOPS:
 
